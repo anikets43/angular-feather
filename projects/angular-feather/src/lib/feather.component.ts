@@ -16,7 +16,7 @@ import { uppercamelcase } from './utils';
   styleUrls: ['./feather.component.scss'],
 })
 export class FeatherComponent implements OnChanges {
-  @Input() name!: string;
+  @Input({ required: true }) name: string = '';
 
   constructor(
     @Inject(ElementRef) private elem: ElementRef,

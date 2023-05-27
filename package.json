@@ -1,6 +1,6 @@
 {
   "name": "@corridor/ngx-feather",
-  "version": "16.0.0",
+  "version": "16.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
